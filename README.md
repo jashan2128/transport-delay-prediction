@@ -26,8 +26,11 @@ Do weather conditions and city events help predict arrival delay (in minutes)?
 - Classifying the `delayed` flag: ROC-AUC 0.47 (equivalent to random guessing)
 - All feature correlations with delay were within +/-0.04
 
-![Delay by weather](images/delay_by_weather.png)
-![Correlation heatmap](images/correlation.png)
+
+![Delay by Weather](delay_by_weather.png)
+
+![Correlation Heatmap](correlation.png)
+
 
 ## Conclusion
 The dataset appears to be synthetic: delays show no dependence on weather, events, or even departure delay. Reporting this honestly matters more than forcing a model to look good.
